@@ -1,0 +1,137 @@
+.creamoscontenido {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-image: url("img/makeitscreen.png");
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.boxlateral {
+    width: 40%;
+    padding-left: 70px;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 130px;
+    background: $gradientevioleta;
+    border-radius: 43px;
+    font-family: $fparrafo;
+    font-size: $tparrafo;
+    color: white;
+    a {
+        color: $blanco;
+        text-decoration: none;}
+    }
+    .wemakeit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: $blanco2;
+        position: relative;
+        z-index: -1;
+    }
+    .wemakeitgrid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        padding: 50px;
+        z-index: 1;
+    }
+    .imgcomputadora {
+        width: 100%;
+        margin: auto;
+    }
+    .imgshape {
+        height: 200px;
+        width: auto;
+        display: inherit;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        animation-name: imgshape;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 15s;
+        z-index: 0;
+         @keyframes imgshape {
+        0% {
+            transform: rotate(0deg) scale(4.5)
+        }
+        100% {
+            transform: rotate(360deg) scale(4.5)
+        }
+    }
+    }
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: $blanco1;
+        padding: 80px;
+    }
+    .flexservicios {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(27rem, 27rem));
+        justify-content: center;
+        width: 60%;
+        grid-gap: 0px 60px;
+        margin: 50px;
+    }
+    .IconosServicios {
+        height: 7rem;
+        margin-bottom: 15px;
+    }
+    .formulario {
+        font-family: $fparrafo;
+        font-size: $tparrafo;
+    }
+    .boxserviciototal {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        transition: 0.5s;
+    }
+
+    .boxserviciototal:hover {
+            transform: translate(0px, -20px);
+    }
+
+    .renglonvioleta {
+        width: 27rem;
+        height: 2rem;
+        left: 1308px;
+        top: 1926px;
+        background: $gradientevioleta;
+        border-radius: 9px 9px 0px 0px;
+    }
+    .boxservicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 23rem;
+        height: 32rem;
+        padding: 20px;
+        box-sizing: inherit;
+        background: $blanco;
+        border-radius: 0px 0px 9px 9px;
+    }
+    .center {
+        text-align: center;
+    }

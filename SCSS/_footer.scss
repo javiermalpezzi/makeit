@@ -1,0 +1,35 @@
+.footer {
+    color: white;
+    background-color: black;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    padding: 50px;
+    a {
+        color: white;
+    }
+}
+
+.logofooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.boxfooter {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    justify-content: center;
+    grid-gap: 60px 60px;
+    
+}
+
+.colfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+}

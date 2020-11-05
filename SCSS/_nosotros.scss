@@ -1,0 +1,99 @@
+.quienessomos {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: white;
+	background-image: url("img/nosotros.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.quienesomosflex {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.integrante {
+
+	min-height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+}
+
+.nosotroscaption {
+
+	margin: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.belen {
+
+	background-image: url("img/belen negro.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	transition: 0.5s;
+}
+
+.belen:hover {
+
+	background-image: url("img/belen blanco.jpg");
+
+}
+
+.javier {
+
+	background-image: url("img/javier negro.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	transition: 0.5s;
+}
+
+.javier:hover {
+
+	background-image: url("img/javier blanco.png");
+
+}
+
+.melisa {
+
+	background-image: url("img/melisa negro.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	transition: 0.5s;
+}
+
+.melisa:hover {
+
+	background-image: url("img/melisa blanco.png");
+
+}
+
+.camila {
+
+	background-image: url("img/camila negro.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	transition: 0.5s;
+}
+
+.camila:hover {
+
+	background-image: url("img/camila blanco.png");
+
+}

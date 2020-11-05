@@ -1,0 +1,43 @@
+.booster1{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: white;
+	background-image: url("img/booster.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.booster1flex{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.goolepartner {
+
+	
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.goolepartnerflex {
+
+	margin: 70px;
+	width: 70%;
+
+}
+.imgpartner {
+	width: 100%;
+	position: relative;
+	right: 0px;
+	
+}

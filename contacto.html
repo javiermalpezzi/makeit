@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <title>Make it - Contacto</title>
     <meta name="description" content="Envianos un correo y comencemos a hablar sobre el proyecto que tanto te apasiona">
     <meta name="keywords" content="marketing digital, diseño, google adds, google partner, contacto, mail, numero telefónico, redes, Instagram">
@@ -60,7 +60,7 @@
             </div>
 
             <div class="contactocol" id="formcontacto">
-                <form class="formcontacto">
+                <form class="formcontacto" method="GET" action="#">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Nombre</label>
                         <input type="text" class="form-control inputtext" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -75,14 +75,14 @@
                     </div>
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input inputcheck" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Quiero suscribirme al newsletter</label>
+                        <label class="form-check-label" for="exampleCheck1" id="checkcontacto">Quiero suscribirme al newsletter</label>
                     </div>
                     <button type="submit" class="btn btn-primary btn-lg btn-block" id="buttoncontact">Enviar</button>
                 </form>
             </div>
         </main>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.68168877432!2d-58.573383207134555!3d-34.615743688997895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1602735336252!5m2!1ses!2sar"
-            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" disableDefaultUI="true" class="mapa"></iframe>
+            width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" disableDefaultUI="true" class="mapa"></iframe>
 
     </section>
 
@@ -93,7 +93,9 @@
             <div class="boxfooter">
                 <div class="colfooter">
                     <h3>Contacto</h3>
-                    <h6>hola@makeitdigital.com</h6>
+                    <a href="#">
+                        <h6>hola@makeitdigital.com</h6>
+                    </a>
                     <a href="https://api.whatsapp.com/send?phone=5491154737725&amp;text=Hola%20acabo%20de%20ver%20tu%20p%C3%A1gina!">
                         <h6>1154737725</h6>
                     </a>
@@ -123,7 +125,7 @@
 
                 <div class="colfooter">
                     <h3>Newsletter</h3>
-                    <form class="formcontacto">
+                    <form class="formcontacto" method="GET" action="#">
                         <div class="form-group">
                             <div class="form-group">
                                 <input type="email" class="form-control inputtext" placeholder="Correo Electrónico" id="exampleInputEmail1" aria-describedby="emailHelp">

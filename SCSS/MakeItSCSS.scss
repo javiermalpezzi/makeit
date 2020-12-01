@@ -24,6 +24,9 @@ h6 {
 
 * {
     box-sizing: inherit;
+    ul {
+        margin-top: inherit;
+    }
 }
 
 html {
@@ -36,10 +39,6 @@ body {
     margin: 0px;
     max-width: 100%;
     overflow-x: hidden;
-}
-
-li {
-    display: inline-block;
 }
 
 footer {
@@ -90,6 +89,6 @@ p {
 @import "home";
 @import "clientes";
 @import "contacto";
-@import "nosotros";
 @import "booster";
+@import "nosotros";
 @import "responsive";

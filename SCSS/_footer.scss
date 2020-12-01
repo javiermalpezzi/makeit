@@ -4,9 +4,11 @@
     align-items: center;
     position: relative;
     z-index: 2;
-    padding: 50px;
     a {
         color: white;
+    }
+    h6 {
+        cursor: pointer;
     }
 }
 
@@ -24,7 +26,6 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     justify-content: center;
     grid-gap: 60px 60px;
-    
 }
 
 .colfooter {
@@ -32,4 +33,13 @@
     flex-direction: column;
     justify-content: flex-start;
     margin: 0px;
+    box-sizing: border-box;
+}
+
+.poweredby {
+    padding: inherit;
+    background-color: rgb(31, 31, 31);
+    font-weight: 100;
+    padding: 5px;
+    text-align: center;
 }

@@ -10,6 +10,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	text-align: center;
 }
 
 .quienesomosflex {
@@ -42,13 +43,10 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	transition: 0.5s;
+	&:hover {background-image: url("img/belen blanco.jpg");
+	}
 }
 
-.belen:hover {
-
-	background-image: url("img/belen blanco.jpg");
-
-}
 
 .javier {
 
@@ -58,13 +56,10 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	transition: 0.5s;
+	&:hover {background-image: url("img/javier blanco.png");
+	}
 }
 
-.javier:hover {
-
-	background-image: url("img/javier blanco.png");
-
-}
 
 .melisa {
 
@@ -74,13 +69,10 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	transition: 0.5s;
+	&:hover {background-image: url("img/melisa blanco.png");
+	}
 }
 
-.melisa:hover {
-
-	background-image: url("img/melisa blanco.png");
-
-}
 
 .camila {
 
@@ -90,10 +82,6 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	transition: 0.5s;
-}
-
-.camila:hover {
-
-	background-image: url("img/camila blanco.png");
-
+	&:hover {background-image: url("img/camila blanco.png");
+	}
 }

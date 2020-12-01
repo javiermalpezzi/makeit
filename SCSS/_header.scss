@@ -7,7 +7,7 @@
                 font-family: $ftitulo, "arial";
                 color: white;
                 text-decoration: none;
-                font-size: 2rem;
+                font-size: 2.5rem;
                 padding-left: 20px;
                 padding-right: 20px;
                 transition: 0.5s;
@@ -24,9 +24,8 @@
         .navmenu {
             display: flex;
             flex-direction: row;
-            align-items: center;
             width: 90%;
-            padding: 20px;
+            padding: 10px;
         }
         
         .logomenu {
@@ -35,6 +34,9 @@
         }
         
         .listamenu {
+            li {
+                display: inline-block;
+            }
             position: absolute;
             right: 20px;
         }

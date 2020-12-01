@@ -1,43 +1,89 @@
-.booster1{
-
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	color: white;
-	background-image: url("img/booster.png");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-
-}
-
-.booster1flex{
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.goolepartner {
-
-	
-	height: 100vh;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-.goolepartnerflex {
-
-	margin: 70px;
-	width: 70%;
-
-}
-.imgpartner {
-	width: 100%;
-	position: relative;
-	right: 0px;
-	
-}
+    .booster1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+        background-image: url("img/booster.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .booster1flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .goolepartner {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .goolepartnerflex {
+        margin: 70px;
+        height: 90%;
+    }
+    
+    .googlepartner-text {
+        padding-bottom: 100px;
+    }
+    
+    .sellopartner {
+        box-shadow: 0px 10px 10px rgba(80, 80, 80, 0.295);
+    }
+    
+    .imgpartner {
+        width: 100%;
+        position: relative;
+        right: 0px;
+    }
+    
+    .booster-section {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .booster-funcion {
+        padding-bottom: 100px;
+    }
+    
+    .booster-list {
+        font-family: $fparrafo;
+        font-size: $tparrafo;
+        width: 60%;
+        text-align: left;
+        ol {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            counter-reset: lista;
+        }
+        li {
+            margin-bottom: 40px;
+        }
+        li:before {
+            content: counter(lista);
+            counter-increment: lista;
+            background-image: $gradientevioleta;
+            border-radius: 50%;
+            font-weight: bold;
+            color: $blanco;
+            width: 50px;
+            height: 50px;
+            padding-top: 10px;
+            text-align: center;
+            display: inline-block;
+            box-sizing: border-box;
+            margin-left: -50px;
+        }
+    }
